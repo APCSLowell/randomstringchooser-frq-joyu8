@@ -6,7 +6,7 @@ public class RandomStringChooser
   public RandomStringChooser(String[] meep)
   {
     words = new ArrayList<String>();
-    for(String w : wordArray)
+    for(String w : meep)
         words.add(w);
 }
 
